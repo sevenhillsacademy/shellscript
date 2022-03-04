@@ -1,7 +1,13 @@
 #!/bin/bash
+# Switch to Script directory
+cd /home/ec2-user
+# Create a devenv directory
 mkdir devenv
+# Switch to devenv directory
 cd devenv
+# Create a files
 touch file1.txt file2.txt file3.txt file4.txt
+# Update the file
 echo "welcome to DevOps world" > file1.txt
 
 # Get the Hostname of the Server
